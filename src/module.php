@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>MBC – Accueil</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-
-<header>
-    <h1>Mystery, Brain & Challenges</h1>
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="profil.html">Profil</a></li>
-            <li><a href="connexion.html">Connexion</a></li>
-        </ul>
-    </nav>
-</header>
+<?php
+$titre = 'MBC – Accueil';
+$page  = 'module';
+include 'header.php';
+?>
 
 <h1 style="font-size: 48px; text-align: center;">Modules de jeux</h1>
 
@@ -56,15 +42,4 @@
     </article>
 </div>
 
-<footer>
-    <p>Projet Saé 1.05 – 1.06</p>
-    <div class="logo">
-        <img src="images/logo_mbc.png" alt="Logo de l'organisation">
-    </div>
-    <div class="center">
-        <a href="propositions.html">En savoir plus</a>
-    </div>
-</footer>
-
-</body>
-</html>
+<?php include 'footer.php'; ?>
