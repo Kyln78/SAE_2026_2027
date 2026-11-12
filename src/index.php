@@ -1,7 +1,7 @@
 <?php
 $titre = 'MBC – Accueil';
 $page  = 'index';
-include 'header.php';
+include 'includes/header.php';
 ?>
 
 <main>
@@ -14,4 +14,4 @@ include 'header.php';
         .</p>
 </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
