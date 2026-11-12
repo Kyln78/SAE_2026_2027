@@ -1,7 +1,7 @@
 <?php
 $titre = 'MBC – Accueil';
 $page  = 'profil';
-include 'header.php';
+include 'includes/header.php';
 ?>
 
 <h1 style="font-size: 48px; text-align: center;">Profil utilisateur</h1>
@@ -22,4 +22,4 @@ include 'header.php';
     </div>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

@@ -2,9 +2,9 @@
 $titre   = 'MBC – Accueil';
 $page    = '';
 $logoAlt = 'placeholder';
-include 'header.php';
+include 'includes/header.php';
 ?>
 <main>
 
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?> 

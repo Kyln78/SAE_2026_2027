@@ -1,7 +1,7 @@
 <?php
 $titre = 'MBC – Accueil';
 $page  = 'module';
-include 'header.php';
+include 'includes/header.php';
 ?>
 
 <h1 style="font-size: 48px; text-align: center;">Modules de jeux</h1>
@@ -42,4 +42,4 @@ include 'header.php';
     </article>
 </div>
 
-<?php include 'footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
