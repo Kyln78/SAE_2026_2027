@@ -37,6 +37,7 @@ function estConnecte(): bool
 
 function connecterUtilisateur(int $id, string $identifiant, string $role, bool $souvenir): void
 {
+    session_regenerate_id(true);
     $_SESSION['user_id'] = $id;
     $_SESSION['identifiant'] = $identifiant;
     $_SESSION['role'] = $role;
