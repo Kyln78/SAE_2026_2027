@@ -3,7 +3,7 @@ mysqli_report(MYSQLI_REPORT_OFF);
 
 const DB_HOST = 'localhost';
 const DB_USER = 'root';
-const DB_PASS = '';
+const DB_PASS = '1234';
 const DB_BASE = 'mbc';
 
 function connecter($host = DB_HOST, $user = DB_USER, $pass = DB_PASS, $base = DB_BASE)
