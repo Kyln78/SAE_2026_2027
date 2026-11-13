@@ -2,7 +2,7 @@
 mysqli_report(MYSQLI_REPORT_OFF);
 
 const DB_HOST = 'localhost';
-const DB_USER = 'adminsys';
+const DB_USER = 'root';
 const DB_PASS = '';
 const DB_BASE = 'mbc';
 
