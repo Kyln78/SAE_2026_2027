@@ -1,8 +1,8 @@
 <?php
 mysqli_report(MYSQLI_REPORT_OFF);
 
-const DB_HOST = '192.168.25.14';
-const DB_USER = 'mbc admin';
+const DB_HOST = 'localhost';
+const DB_USER = 'mbc_admin';
 const DB_PASS = 'MDP123';
 const DB_BASE = 'mbc';
 
