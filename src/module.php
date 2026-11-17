@@ -11,12 +11,14 @@ include 'includes/header.php';
         <header>
             <h2>Jeu 1</h2>
         </header>
-        <img alt="Jeu 1">
+        <img src="includes/Plan-Iut.png" alt="Jeu 1">
         <div class="content">
             <p>
-                Jeu numéro 1 - Règles : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cupiditate dolores eius eos explicabo magni, minus mollitia numquam pariatur sapiente! Aliquam aspernatur consequuntur corporis distinctio excepturi fugiat nobis quos saepe.
+                Jeu numéro 1 - Règles : Vous êtes enfermé dans l'IUT de Vélizy. Explorez le plan à la souris pour trouver les zones cachées et résolvez chaque énigme mathématique avant la fin du chrono pour débloquer la sortie !
             </p>
         </div>
+        <a href="Règles/Regles1.php" class="mon-bouton">Règles du premier jeu</a>
+        <a href="Jeux/Jeux1.php" class="mon-bouton2">Lien vers le premier jeu</a>
     </article>
 
     <article class="card">

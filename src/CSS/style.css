@@ -94,18 +94,36 @@ footer {
     color: white;
     padding: 0.5rem;
 }
-.card button {
-    background: lightblue;
-    color: grey;
-    border: 1px solid lightblue;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-.card button:hover {
-    background: #007bb6;
+
+.mon-bouton {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c6fc2;
     color: white;
-    border-color: #007bb6;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.mon-bouton:hover {
+    background-color: #2741b8;
+}
+
+.mon-bouton2 {
+    margin-top: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #66c25c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.mon-bouton2:hover {
+    background-color: #4c8345;
 }
 
 .profiles-container {
@@ -163,4 +181,83 @@ footer {
 }
 .center{
     text-align: center;
+}
+
+.scenario {
+    background-color: #0f172a;
+    border-left: 4px solid #f59e0b;
+    padding: 15px 20px;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+}
+
+ol, ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #38bdf8;
+}
+
+.alert-box {
+    background-color: rgba(239, 68, 68, 0.1);
+    border: 1px solid #ef4444;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.alert-box h2 {
+    color: #ef4444;
+    border-left-color: #ef4444;
+    margin-top: 0;
+}
+
+.alert-box strong {
+    color: #fca5a5;
+}
+.blanc{
+    color: #FFFFFF;
+}
+.pad{
+    padding: 15px;
+}
+
+.debutJeu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(135deg, #00c853 0%, #009624 100%);
+    border: none;
+    border-radius: 12px;
+    padding: 18px 48px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #00600f, 0 12px 20px rgba(0, 200, 83, 0.4);
+    transition: all 0.15s ease;
+}
+
+.debutJeu:hover {
+    background: linear-gradient(135deg, #00e676 0%, #00c853 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 0 #00600f, 0 15px 25px rgba(0, 230, 118, 0.6);
+}
+
+.debutJeu:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #00600f, 0 5px 10px rgba(0, 200, 83, 0.4);
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+.big{
+    font-size:48px;
+    margin-bottom: 5px;
 }
