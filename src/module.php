@@ -30,18 +30,6 @@ include 'includes/header.php';
             <p>Jeu numéro 2 - Règles : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio dolor dolorem ducimus ea eligendi enim error fuga ipsa mollitia neque nisi nulla optio quisquam rem sequi tempore, veritatis voluptatum!</p>
         </div>
     </article>
-
-    <article class="card">
-        <header>
-            <h2>Jeu 3</h2>
-        </header>
-        <img alt="Jeu 3">
-        <div class="content">
-            <p>
-                Jeu numéro 3 - Règles : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius excepturi molestias quae quaerat repellendus repudiandae tempora totam voluptate! Adipisci animi dolore eos est fuga magnam provident reprehenderit rerum soluta voluptates.
-            </p>
-        </div>
-    </article>
 </div>
 
 <?php include 'includes/footer.php'; ?>
