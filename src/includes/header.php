@@ -7,7 +7,7 @@ $liens = [
         'module'    => ['libelle' => 'Modules de jeu', 'url' => 'module.php'],
         'profil'    => ['libelle' => 'Profil',         'url' => 'profil.php'],
         'connexion' => ['libelle' => 'Connexion',      'url' => 'connexion.php'],
-        'incription' => ['libelle' => 'Incription',      'url' => 'incription.php'],
+        'incription' => ['libelle' => 'Incription',      'url' => 'inscription.php'],
 ];
 ?>
 <!DOCTYPE html>
