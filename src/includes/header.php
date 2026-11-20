@@ -7,6 +7,7 @@ $liens = [
         'module'    => ['libelle' => 'Modules de jeu', 'url' => 'module.php'],
         'profil'    => ['libelle' => 'Profil',         'url' => 'profil.php'],
         'connexion' => ['libelle' => 'Connexion',      'url' => 'connexion.php'],
+        'incription' => ['libelle' => 'Incription',      'url' => 'incription.php'],
 ];
 ?>
 <!DOCTYPE html>
@@ -25,7 +26,6 @@ $liens = [
         <ul class="menu">
             <?php foreach ($liens as $id => $infos): ?>
                 <li>
-                    <!-- Les liens du menu s'adaptent aussi pour ne pas casser -->
                     <a href="<?= htmlspecialchars($racine . $infos['url']) ?>"
                        class="<?= ($id === $page) ? 'active' : '' ?>">
                         <?= htmlspecialchars($infos['libelle']) ?>
