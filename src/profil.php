@@ -2,7 +2,6 @@
 $titre = 'MBC – Accueil';
 $page  = 'profil';
 include 'includes/header.php';
-include 'connexion.php';
 ?>
 
 <h1 style="font-size: 48px; text-align: center;">Profil utilisateur</h1>
