@@ -1,17 +1,27 @@
 <?php
 $titre = 'MBC – Accueil';
 $page  = 'profil';
+
+if (!estConnecte()){
+    header('Location: connexion.php');
+    exit;
+}
 include 'includes/header.php';
 ?>
 
 <h1 style="font-size: 48px; text-align: center;">Profil utilisateur</h1>
 
-<?php if (estConnecte()): ?>
-    <p>Vous êtes connecté en tant que <strong><?= e($_SESSION['identifiant']) ?></strong>.</p>
+<?php if ($_SESSION['role'] !== 'adminweb'): ?>
+    <h2>Espace administrateur web</h2>
+    <p>Bonjour <strong><?= e($_SESSION['identifiant']) ?></strong>, vous êtes connecté en tant qu'administrateur web.</p>
     <p><a href="deconnexion.php">Se déconnecter</a></p>
 <?php endif;?>
-<?php if (!estConnecte()): ?>
-    <a href="connexion.php" class="connexion">Se connecter ?</a>
+<?php if ($_SESSION['role'] !== 'adminsys'): ?>
+    <h2>Espace administrateur système</h2>
+    <p>Bonjour <strong><?= e($_SESSION['identifiant']) ?></strong>, vous êtes connecté en tant qu'administrateur système.</p>
+    <p><a href="deconnexion.php">Se déconnecter</a></p>
 <?php endif;?>
-
+    <h2>Esapce utilisateur</h2>
+    <p>Bonjour <strong><?= e($_SESSION['identifiant']) ?></strong>, vous êtes connecté</p>
+    <p><a href="deconnexion.php">Se déconnecter</a></p>
 <?php include 'includes/footer.php'; ?>
