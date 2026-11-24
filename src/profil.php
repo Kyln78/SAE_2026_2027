@@ -1,11 +1,15 @@
 <?php
-$titre = 'MBC – Accueil';
-$page  = 'profil';
+require 'includes/auth.php';
 
 if (!estConnecte()){
     header('Location: connexion.php');
     exit;
 }
+
+$titre = 'MBC – Accueil';
+$page  = 'profil';
+
+
 include 'includes/header.php';
 ?>
 
