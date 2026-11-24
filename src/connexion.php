@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !estConnecte()) {
                 $erreur = 'Mot de passe incorrect.';
             } else {
                 connecterUtilisateur((int) $user['id'], $identifiant, $user['role'], $souvenir); // Connecte l'utilisateur en stockant son ID et son identifiant dans la session, et prolonge la durée de vie du cookie si nécessaire
-                header('Location: ' . pageRole($user['role']));
+                header('Location: profil.php');
                 exit;
             }
         }

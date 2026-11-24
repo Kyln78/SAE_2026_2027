@@ -19,17 +19,6 @@ function e($texte): string
     return htmlspecialchars((string) $texte, ENT_QUOTES, 'UTF-8');
 }
 
-function pageRole(string $role): string
-{
-    if ($role === 'adminweb') {
-        return 'adminweb.php';
-    }
-    if ($role === 'adminsys') {
-        return 'adminsys.php';
-    }
-    return 'utilisateur.php';
-}
-
 function estConnecte(): bool
 {
     return isset($_SESSION['user_id']); // Vérifie si l'utilisateur est connecté en vérifiant la présence de l'ID utilisateur dans la session

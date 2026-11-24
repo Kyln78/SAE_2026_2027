@@ -552,3 +552,71 @@ body.enigme {
     cursor: pointer;
     transition: background 0.15s;
 }
+.head-card,
+.body-card,
+.footer-card {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    background-color: #ffffff;
+}
+
+.head-card {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    border-radius: 15px 15px 0 0;
+    color: #ffffff;
+    background-color: #243b55;
+    font-size: 23px;
+    text-align: center;
+}
+
+.body-card {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #444;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #f8f9fc;
+}
+
+.footer-card {
+    margin-top: 0;
+    padding-bottom: 25px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    background-color: #f8f9fc;
+}
+
+.footer-card a {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 8px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-card a:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+@media screen and (max-width: 600px) {
+    .head-card,
+    .body-card,
+    .footer-card {
+        max-width: 90%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .head-card {
+        font-size: 20px;
+    }
+}
