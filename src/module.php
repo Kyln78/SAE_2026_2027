@@ -20,16 +20,6 @@ include 'includes/header.php';
         <a href="Règles/Regles1.php" class="mon-bouton">Règles du premier jeu</a>
         <a href="Jeux/Jeux1.php" class="mon-bouton2">Lien vers le premier jeu</a>
     </article>
-
-    <article class="card">
-        <header>
-            <h2>Jeu 2</h2>
-        </header>
-        <img alt="Jeu 2">
-        <div class="content">
-            <p>Jeu numéro 2 - Règles : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio dolor dolorem ducimus ea eligendi enim error fuga ipsa mollitia neque nisi nulla optio quisquam rem sequi tempore, veritatis voluptatum!</p>
-        </div>
-    </article>
 </div>
 
 <?php include 'includes/footer.php'; ?>

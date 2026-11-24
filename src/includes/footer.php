@@ -9,7 +9,7 @@ $racine = $racine ?? '';
         <img src="<?= $racine ?>images/logo_mbc.png" alt="Logo">
     </div>
     <div class="center">
-        <a href="propositions.php">En savoir plus</a>
+        <a href="<?= $racine ?>propositions.php">En savoir plus</a>
     </div>
 </footer>
 

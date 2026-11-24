@@ -541,3 +541,14 @@ body.enigme {
 .white{
     color: #ffffff;
 }
+.connexion{
+    padding: 10px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    background: #3cfc27;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
